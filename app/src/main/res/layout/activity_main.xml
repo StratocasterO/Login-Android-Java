@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello User, this is your profile!"
+        android:text="Hello User, this is your profile! "
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -72,6 +73,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="email@thisismyemail.com" />
+
+            <ImageView
+                android:id="@+id/verified"
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                app:srcCompat="@drawable/check" />
         </TableRow>
 
         <TableRow
