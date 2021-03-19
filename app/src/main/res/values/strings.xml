@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Prova Java</string>
+    <string name="facebook_app_id">272931397643305</string>
+    <string name="fb_login_protocol_scheme">fb272931397643305</string>
 </resources>
