@@ -52,6 +52,9 @@ public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // loads theme on create, after the splash screen
+        setTheme(R.style.Theme_ProvaJava);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
